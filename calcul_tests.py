@@ -1,4 +1,4 @@
-import calculator
+import calculate
 
 class Tests:
     def test plus (self):
