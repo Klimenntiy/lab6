@@ -4,7 +4,7 @@ from teach.calculator import calcul
 class Tests:
     def test plus (self):
         output = calculator. calculate("8 + 4")
-        assert output == 12
+        assert output == 11
     def test minus (self):
         output = calculator. calculate("8 - 4")
         assert output == 4
