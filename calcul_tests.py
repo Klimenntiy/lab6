@@ -1,5 +1,4 @@
-from unittest import TestCase, main
-from teach.calculator import calcul
+import calculator
 
 class Tests:
     def test plus (self):
