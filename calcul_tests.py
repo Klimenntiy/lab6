@@ -1,15 +1,15 @@
-import calculate
+import unittest
+from main import calcul
 
-class Tests:
-    def test plus (self):
-        output = calculator. calculate("8 + 4")
-        assert output == 12
-    def test minus (self):
-        output = calculator. calculate("8 - 4")
-        assert output == 4
-    def test_ multiply(self):
-        output = calculator. calculate("8 * 4")
-        assert output == 32
-    def test divide(self):
-        output = calculator. calculate("8 / 4")
-        assert output == 2
+class calculTest(unittest.TestCase):
+    def test_plus(self):
+        self.assertEqual(calcul('1 + 2'), 3)
+
+    def test_minus(self):
+        self.assertEqual(calcul('1 - 2'), -1)
+
+    def test_multi(self):
+        self.assertEqual(calcul('3 * 2'), 6)
+
+    def test_divide(self):
+        self.assertEqual(calcul('6 / 2'), 3)
