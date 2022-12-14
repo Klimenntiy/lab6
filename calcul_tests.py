@@ -4,7 +4,7 @@ from teach.calculator import calcul
 
 class CalculT(TestCase):
     def test_plus(self):
-        self.assertEqual(calcul('2 + 2'), 4)
+        self.assertEqual(calcul('2 + 2'), 3)
 
     def test_minus(self):
         self.assertEqual(calcul('20 - 14'), 6)
